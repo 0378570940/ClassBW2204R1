@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #ED0036;
+        }
+        div{
+            /* text-align: center; */
+            background-color: #4AF0C8;
+            width: fit-content;
+            margin-left: 30%;
+            border: 7px solid #F0CB1A;
+            border-radius: 7px;
+        }
+        img{
+            padding-left: 40%;
+        }
+        label{
+            padding-left: 10px;
+        }
+        form{
+            padding-left: 20px;
+        }
+        .submit{
+            margin-left: 30%;
+            background-color: #F0D04D;
+        }
+        button{
+            background-color: #F0D04D;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Cat City ID Registration</h1>
+        <img src="./imgs/8922a9162174e15d8f8588f4f2548c54.jpg" alt="Cat" usemap="#workmap" height="100px">
+        <map name="cats">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="./imgs/Icon-meo-dang-yeu.jpg">
+          </map>
+        <br>
+        <form>
+            <label for="">Name:</label><br>
+            <input type="text"><br> 
+            <label for="">Age:</label><br>
+            <input type="text" name=""> <br> 
+
+            <label for="">Gender:</label><br>
+            <input type="Radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other <br> 
+
+            <label for="">Cat loves to:</label><br>
+            <input type="checkbox" value="1" name="Fur Color">Eat
+            <input type="checkbox" value="2" name="Fur Color">Drink Milk
+            <input type="checkbox" value="3" name="Fur Color">Sleep <br> 
+
+            <label for="">Cat hates:</label><br>
+            <input type="checkbox" value="bath" name="bath"> Bath
+            <input type="checkbox" value="hug" name="hug"> Hug
+            <input type="checkbox" value="other-cat" name="other-cat"> Other cat <br>
+
+            <label for="">Cat Breed:</label>
+            <select name="" id="">
+                <option value="">Siamese</option>
+                <option value="">Scottish Fold</option>
+                <option value=""> Sphynx</option>
+            </select> <br> <br>
+
+            <label for="">Cat ID</label> 
+            <input type="number"> <br>  <br>
+
+            <label for="">Other infomation</label> <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+
+            <button type="submit" class="submit">Finish</button>
+            <button type="reset" >Reset</button>
+        </form>
+    </div>
+</body>
+
+</html>
