@@ -1,0 +1,22 @@
+h1 {
+    width: 300px;
+    /* margin cân ra giữa màn hình */
+    margin: auto;
+}
+
+h1, p {
+    /*display: hiện thị trên 1 dòng */
+    /* display: inline; */
+}
+
+img {
+    width: 400px;
+    /*display: cho hình ảnh xuống dòng */
+    display: block;
+    margin: auto;
+}
+
+p {
+    /* ko hiện thị thẻ p */
+    /* display: none; */
+}
