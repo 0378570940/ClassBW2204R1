@@ -1,0 +1,126 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* chiều ngang chình duyeetj tối đa */
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    background-color: white;
+    height: 10%;
+    width: 100%;
+    border-bottom: 2px solid #65A858;
+    /* cố định lại vị trí */
+    position: fixed;
+}
+
+#logo {
+    height: 80%;
+    margin: 5px 10px;
+    float: left;
+}
+
+#nav-menu {
+    /* bỏ dấu chấn ở trước thẻ ul */
+    list-style-type: none;
+    float: left;
+}
+
+#nav-menu, li{
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+    font-size: 15px;
+    /* cho chữ đậm hơn */
+    font-weight: 600;
+}
+
+#nav-menu, li, a{
+    /* bỏ dáu gạch dưới của thẻ link (a) */
+    text-decoration: none;
+    color: black;
+}
+
+header button { 
+    float: right;
+    margin: 0 100px;
+    height: 100%;
+    width: 70px;
+    background-color: #9ac31c;
+    font-size: 15px;
+}
+
+header + div {
+    padding-top: 5%;
+}
+
+div img {
+    width: 40%;
+}
+
+.intro {
+    width: 60%;
+    text-align: right;
+    padding: 10% 10%;
+    box-sizing: border-box;
+}
+
+/* div div h1{
+    color: #65A858;
+    margin: 150px 120px 0 250px;
+}
+
+div div p {
+    margin-left: 250px;
+    margin-right: 120px;
+} */
+
+.intro h1{
+    color: green;
+    font-size: 35px;
+}
+
+.intro p {
+    color: gray;
+    font-weight: bold;
+}
+
+.left{
+    float: left;
+}
+
+.content {
+    background-color: green;
+    height: 60%;
+    /* hiện thị ko vướng flaot  */
+    clear: both;
+    margin-top: 20px;
+    padding: 0 10%;
+}
+
+.content p {
+    width: 40%;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.content img {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    top: 50px;
+}
+
+
+
+
