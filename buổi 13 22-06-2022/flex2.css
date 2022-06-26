@@ -1,0 +1,61 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* không gian của trang web thừa ra dùng overflow để bo lại*/
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+.conteiner {
+    width: 90%;
+    height: 80%;
+    background-color: burlywood;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    /*  */
+    flex-wrap: nowrap;
+}
+ .conteiner div {
+    width: 50%;
+    
+ }
+
+#item-1 {
+    background-color: chartreuse;
+    /* thu nhỏ độ ko gian, độ ko dan càng to thì càng nhỏ */
+    flex-shrink: 5;
+}
+
+#item-2 {
+    background-color: brown;
+    /* sheep lên đứng đầu */
+    order: -1;
+    flex-shrink: 2;
+}
+
+#item-3 {
+    background-color: rgb(235, 221, 33);
+    flex-shrink: 4;
+}
+
+#item-4 {
+    background-color: rgb(178, 91, 204);
+}
+
+#item-5 {
+    background-color: rgb(17, 182, 53);
+    /* chiến những ko gian thừa ra */
+    flex-grow: 1;
+}
+
+#item-6 {
+    background-color: rgb(231, 85, 48);
+    flex-grow: 1;
+}
