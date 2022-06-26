@@ -1,0 +1,20 @@
+a:link {
+    /* hiện thị màu trên thẻ a */
+    color: blueviolet;
+}
+
+a:hover {
+    /*di chuột qua thẻ a */
+    color: red;
+}
+
+a:active {
+    /* nhán chuột vào thẻ a */
+    color: green;
+}
+
+h2 u:first-child {
+    /* được chọn phần tự u đầu tiên */
+    color: green;
+}
+

@@ -1,0 +1,16 @@
+img {
+    width: 20%;
+    /* chỉ định độ trễ */
+    transition-delay: 1s;
+    /* khoảng thời gian diễn da sự thây đổi */
+    transition-duration: 2s;
+    transition-property: width;
+    /* xác định tốc độ của hiểu ứng chuyển đổi */
+    /* linear: chuyển đổi tốc độ từ đầu đến cuối (còn nhiều thuộc tính khác)*/
+    transition-timing-function: linear;
+}
+img:hover {
+    width: 40%;
+    /* độ mờ của ảnh */
+    opacity: 0.8;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements-Demo 1</title>
+    <style>
+        /* chữ cái đầu tiên đc nhân */
+        h2::first-letter{
+            font-size: 50px;
+            font-style: italic;
+            color: green;
+        }
+        /* các chữ sau đổi thành from chữ khác */
+        h2::first-line{
+            font-size: 30px;
+            font-style: italic;
+            color: blue;
+        }
+        
+
+        /* hình ảnh được viết ở trức thẻ p */
+        p::before{
+            content: url(./bullet-2.jpeg);
+        }
+        p{
+            font-size: 50px;
+            color: blue;
+        }
+
+
+        /* hình ảnh đc viết sau thẻ p */
+        p::after{
+            content: url(./bullet-2.jpeg);            
+        }
+        p{
+            font-size: 50px;
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>This is an h2 tag This is an h2 tag This is an h2 tag </h2>
+    <p>Hello Hello Hello Hello </p>
+    <p>Hello Hello Hello Hello </p>
+</body>
+</html>

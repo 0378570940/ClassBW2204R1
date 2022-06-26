@@ -1,0 +1,22 @@
+img {
+    width: 50%;
+}
+img:hover {
+    /* độ mờ của ảnh */
+    opacity: 0.8;
+}
+button {
+    padding: 20px;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 10px;
+    border: none;
+}
+button:hover {
+    /* độ mờ của button khi di chuột qua nó */
+    opacity: 0.5;
+}
+
