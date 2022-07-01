@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-size: 14px;
+}
+
+.container {
+    /* dao diện mà chàn ra dùng overflow: scroll hiện thijnthanh kéo */
+    overflow: scroll;
+    background-color: rgb(192, 6, 248);
+}
