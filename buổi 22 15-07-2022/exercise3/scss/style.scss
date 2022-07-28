@@ -1,0 +1,18 @@
+$small: 600px;
+$fontstack-titles:'ANTON',sans-serif;
+
+@mixin layout($color, $size: 14px) {
+    color: $color;
+    background-color:rgba(invert($color: $color), 0.1);
+    font-size: $size;
+    margin: $size;
+    padding: $size;
+    line-height: calc($size *1.5);
+    border: 5px solid $color;
+
+}
+
+body {
+    font-family: $fontstack-titles;
+    font-size: 26px;
+}

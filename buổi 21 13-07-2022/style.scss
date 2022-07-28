@@ -1,0 +1,63 @@
+$primary-color: white;
+$secondary-color: #F8B547;
+
+@mixin hover-effect($background-color, $color) {
+    background-color: $background-color;
+    color: $color;
+    width: 150px;
+}
+
+@mixin important-text() {
+    
+}
+
+html, body {
+    margin: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+ body {
+    background-image: url("./img/z3564397146105_5e98a2e1841c43a85f9df29b64f22cfc.jpg");
+    background-repeat: no-repeat;
+    
+    .container_fluid{
+        background-color: rgba($color: #000000, $alpha: 0.7);
+    }
+
+    .primary-color{
+        color: $primary-color;
+    }
+
+    .primary-bg {
+        background-color: $primary-color;
+    }
+
+    .secondary-color{
+        color: $secondary-color;
+    }
+
+    .secondary-bg {
+        background-color: $secondary-color;
+    }
+
+    .primary-border {
+        border: 2px solid $primary-color;
+    }
+
+    .secondary-border {
+        border: 2px solid $secondary-color;
+    }
+
+    .btn-register:hover {
+        @include hover-effect(rgba($color: #000000, $alpha: 0), $secondary-color)
+        // background-color: rgba($color: #000000, $alpha: 0);
+        // color: $secondary-color;
+    }
+
+    .btn-discover:hover{
+        @include hover-effect(white !important, black)
+        // background-color: white !important;
+        // color: black;
+    }
+}
